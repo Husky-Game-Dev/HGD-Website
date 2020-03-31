@@ -13,11 +13,13 @@ header {
 section {
   color: white;
   margin: 0 auto; }
-  section div h1 {
-    margin: 20px 0px 20px 0px; }
+  section h1 {
+    padding: 20px 0px 20px 0px; }
   section .content {
     width: 80%;
     margin: 0 auto; }
+    section .content h1 {
+      padding: 20px 0px 20px 0px; }
   section h1, section h2, section p {
     font-family: "Lato", sans-serif; }
   section p {
@@ -54,8 +56,8 @@ article {
   margin-top: 10%; }
 
 h1 {
-  font-size: 50px;
-  font-weight: bold; }
+  font-size: 42px;
+  font-weight: 700; }
 
 #home {
   text-align: center; }
@@ -71,22 +73,20 @@ h1 {
     margin-top: 30px;
     padding: 0px 100px 0px 100px; }
 
-#events {
-  width: 80%; }
-  #events .event {
-    display: flex;
-    background-color: #635AE0;
-    margin: 0px 0px 50px 0px; }
-    #events .event div {
-      margin: 20px;
-      width: 50%; }
-      #events .event div h2 {
-        font-size: 40px;
-        margin-bottom: 10px; }
-      #events .event div p {
-        font-size: 24px; }
-    #events .event img {
-      width: 50%; }
+#events .event {
+  display: flex;
+  background-color: #635AE0;
+  margin: 0px 0px 50px 0px; }
+  #events .event div {
+    margin: 20px;
+    width: 50%; }
+    #events .event div h2 {
+      font-size: 40px;
+      margin-bottom: 10px; }
+    #events .event div p {
+      font-size: 24px; }
+  #events .event img {
+    width: 50%; }
 
 #calendar {
   background-color: #767180; }
@@ -108,5 +108,13 @@ h1 {
 
 #join {
   background-color: #7289DA; }
+  #join .content {
+    display: flex; }
+  #join h1 {
+    width: 80%;
+    margin: 0 auto; }
+
+footer {
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */

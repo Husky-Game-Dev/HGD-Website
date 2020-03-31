@@ -7,7 +7,6 @@ $background-color-primary: #251F2F;
 $background-color-secondary: #767180;
 $background-color-tertiary: #635AE0;
 
-
 $font-color-light: white;
 $font-color-dark: brown;
 
@@ -31,14 +30,18 @@ header {
 }
 
 section {
-    div h1 {
-        margin: $margin-size-primary 0px $margin-size-primary 0px;
-    }
+
     color: $font-color-light;
     margin: 0 auto;
+    h1 {
+        padding: $margin-size-primary 0px $margin-size-primary 0px;
+    }
     .content {
         width: 80%;
         margin: 0 auto;
+        h1 {
+            padding: $margin-size-primary 0px $margin-size-primary 0px;
+        }
     }
 
     h1, h2, p {
@@ -88,8 +91,8 @@ article {
 }
 
 h1 {
-    font-size: 50px;
-    font-weight: bold;
+    font-size: 42px;
+    font-weight: 700;
 }
 
 #home {
@@ -132,7 +135,6 @@ h1 {
         }
         margin: 0px 0px 50px 0px;
     }
-    width: 80%;
 }
 
 
@@ -163,8 +165,19 @@ h1 {
 
 #join {
     background-color: #7289DA;
+    .content {
+        display: flex;
+    }
+    h1 {
+        width: 80%;
+        margin: 0 auto;
+    }
 }
 
 #contact {
 
+}
+
+footer {
+    color: white;
 }
