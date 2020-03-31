@@ -1,40 +1,75 @@
+/* HEADER VARIABLES */
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box; }
 
 header {
-  text-align: center;
   /* TODO: Update with banner here
   background-image: url(); */
   background-repeat: none;
   background-size: cover; }
 
+section {
+  color: white;
+  width: 80%;
+  margin: 0 auto; }
+
+body {
+  background-color: #251F2F; }
+
 nav {
+  color: white;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   box-sizing: border-box;
-  background: gray;
+  background: #767180;
   height: 75px;
   z-index: 9999; }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex; }
+    nav ul li {
+      list-style: none;
+      line-height: none;
+      padding: 0px 0px 20px 20px; }
+  nav a {
+    color: inherit;
+    text-decoration: none; }
 
 article {
   margin-top: 75px; }
 
-nav ul {
-  margin: 0;
-  padding: 0;
-  display: flex; }
-
-nav ul li {
-  list-style: none;
-  line-height: none;
-  padding: 0px 0px 20px 20px; }
-
 h1,
 h2 {
   font-family: "Lato", sans-serif; }
+
+h1 {
+  font-size: 40px; }
+
+#home {
+  text-align: center; }
+
+#about {
+  text-align: center; }
+  #about h1 {
+    background-color: #50E3C2;
+    color: #251F2F;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 0px 100px 0px 100px; }
+
+#events .event {
+  display: flex;
+  background-color: #635AE0; }
+  #events .event div {
+    width: 50%; }
+  #events .event img {
+    width: 50%; }
 
 /*# sourceMappingURL=style.css.map */
