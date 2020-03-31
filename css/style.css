@@ -12,8 +12,16 @@ header {
 
 section {
   color: white;
-  width: 80%;
   margin: 0 auto; }
+  section div h1 {
+    margin: 20px 0px 20px 0px; }
+  section .content {
+    width: 80%;
+    margin: 0 auto; }
+  section h1, section h2, section p {
+    font-family: "Lato", sans-serif; }
+  section p {
+    font-size: 20px; }
 
 body {
   background-color: #251F2F; }
@@ -26,29 +34,28 @@ nav {
   width: 100%;
   box-sizing: border-box;
   background: #767180;
-  height: 75px;
-  z-index: 9999; }
+  height: 10%;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: left; }
   nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex; }
+    display: flex;
+    font-size: 30px; }
     nav ul li {
       list-style: none;
       line-height: none;
-      padding: 0px 0px 20px 20px; }
+      padding: 0px 15px 0px 15px; }
   nav a {
     color: inherit;
     text-decoration: none; }
 
 article {
-  margin-top: 75px; }
-
-h1,
-h2 {
-  font-family: "Lato", sans-serif; }
+  margin-top: 10%; }
 
 h1 {
-  font-size: 40px; }
+  font-size: 50px;
+  font-weight: bold; }
 
 #home {
   text-align: center; }
@@ -64,12 +71,42 @@ h1 {
     margin-top: 30px;
     padding: 0px 100px 0px 100px; }
 
-#events .event {
+#events {
+  width: 80%; }
+  #events .event {
+    display: flex;
+    background-color: #635AE0;
+    margin: 0px 0px 50px 0px; }
+    #events .event div {
+      margin: 20px;
+      width: 50%; }
+      #events .event div h2 {
+        font-size: 40px;
+        margin-bottom: 10px; }
+      #events .event div p {
+        font-size: 24px; }
+    #events .event img {
+      width: 50%; }
+
+#calendar {
+  background-color: #767180; }
+
+#officers .officer {
   display: flex;
-  background-color: #635AE0; }
-  #events .event div {
-    width: 50%; }
-  #events .event img {
-    width: 50%; }
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  text-align: center; }
+  #officers .officer .officer-image {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto; }
+#officers .officer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+#join {
+  background-color: #7289DA; }
 
 /*# sourceMappingURL=style.css.map */
