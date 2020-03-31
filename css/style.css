@@ -1,38 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
 header {
-    text-align: center;
-    /* TODO: Update with banner here
-    background-image: url(); */
-    background-repeat: none;
-    background-size: cover;
-}
+  text-align: center;
+  /* TODO: Update with banner here
+  background-image: url(); */
+  background-repeat: none;
+  background-size: cover; }
 
 nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    box-sizing: border-box;
-    background: gray;
-    height: 80px;
-    padding: 10px 50px;
-}
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background: gray;
+  height: 75px;
+  z-index: 9999; }
+
+article {
+  margin-top: 75px; }
 
 nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
+  margin: 0;
+  padding: 0;
+  display: flex; }
 
 nav ul li {
-    list-style: none;
-    line-height: none;
-}
+  list-style: none;
+  line-height: none;
+  padding: 0px 0px 20px 20px; }
 
 h1,
 h2 {
-    font-family: "Lato", sans-serif;
-}
+  font-family: "Lato", sans-serif; }
 
-#about h1 {
-    
-}
+/*# sourceMappingURL=style.css.map */

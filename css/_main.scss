@@ -1,0 +1,50 @@
+$header-height: 75px;
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    /* TODO: Update with banner here
+    background-image: url(); */
+    background-repeat: none;
+    background-size: cover;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background: gray;
+    height: $header-height;
+    z-index: 9999;
+}
+
+article {
+    margin-top: $header-height;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    line-height: none;
+    padding: 0px 0px 20px 20px;
+}
+
+h1,
+h2 {
+    font-family: "Lato", sans-serif;
+}
+
+#about h1 {
+    
+}
