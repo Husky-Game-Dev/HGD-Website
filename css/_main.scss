@@ -2,6 +2,7 @@
 /* HEADER VARIABLES */
 $header-height: 10%;
 
+$banner-height: 500px;
 
 $background-color-primary: #251F2F;
 $background-color-secondary: #767180;
@@ -22,12 +23,25 @@ $margin-size-secondary: 10px;
     box-sizing: border-box;
 }
 
-header {
-    /* TODO: Update with banner here
-    background-image: url(); */
+#home {
+    background-image: url(../images/HGD_Spring_2020_Game_Jam_WEBSITE_ver1.png);
     background-repeat: none;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    #main-header {
+        font-size: 60px;
+    }
+    #logo img {
+        height: 250px;
+        width: 200px;
+    }
 }
+
+
+
 
 section {
 
@@ -88,7 +102,6 @@ nav {
 }
 
 article {
-    margin-top: $header-height;
 }
 
 h1 {
@@ -97,9 +110,9 @@ h1 {
 }
 
 #home {
+    padding-top: $header-height;
     text-align: center;
-
-
+    height: $banner-height;
 }
 
 

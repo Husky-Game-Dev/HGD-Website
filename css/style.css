@@ -4,11 +4,19 @@
   padding: 0px;
   box-sizing: border-box; }
 
-header {
-  /* TODO: Update with banner here
-  background-image: url(); */
+#home {
+  background-image: url(../images/HGD_Spring_2020_Game_Jam_WEBSITE_ver1.png);
   background-repeat: none;
-  background-size: cover; }
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  #home #main-header {
+    font-size: 60px; }
+  #home #logo img {
+    height: 250px;
+    width: 200px; }
 
 section {
   color: white;
@@ -53,15 +61,14 @@ nav {
     color: inherit;
     text-decoration: none; }
 
-article {
-  margin-top: 10%; }
-
 h1 {
   font-size: 42px;
   font-weight: 700; }
 
 #home {
-  text-align: center; }
+  padding-top: 10%;
+  text-align: center;
+  height: 500px; }
 
 #about {
   text-align: center; }
