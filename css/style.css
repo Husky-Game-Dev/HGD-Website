@@ -17,7 +17,8 @@ section {
     padding: 20px 0px 20px 0px; }
   section .content {
     width: 80%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-bottom: 50px; }
     section .content h1 {
       padding: 20px 0px 20px 0px; }
   section h1, section h2, section p {
@@ -90,6 +91,13 @@ h1 {
 
 #calendar {
   background-color: #767180; }
+  #calendar h1 {
+    width: 80%;
+    margin: 0 auto; }
+  #calendar .content {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
 
 #officers .officer {
   display: flex;

@@ -42,6 +42,7 @@ section {
         h1 {
             padding: $margin-size-primary 0px $margin-size-primary 0px;
         }
+        padding-bottom: 50px;
     }
 
     h1, h2, p {
@@ -139,7 +140,16 @@ h1 {
 
 
 #calendar {
+    h1 {
+        width: 80%;
+        margin: 0 auto;
+    }
     background-color: $background-color-secondary;
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 #officers {
@@ -172,10 +182,6 @@ h1 {
         width: 80%;
         margin: 0 auto;
     }
-}
-
-#contact {
-
 }
 
 footer {
