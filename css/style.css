@@ -11,7 +11,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  padding-top: 10%;
+  text-align: center;
+  height: 500px; }
   #home #main-header {
     font-size: 60px; }
   #home #logo img {
@@ -49,7 +52,8 @@ nav {
   z-index: 9999;
   display: flex;
   align-items: center;
-  justify-content: left; }
+  justify-content: left;
+  font-family: 'Montserrat', sans-serif; }
   nav ul {
     display: flex;
     font-size: 30px; }
@@ -65,26 +69,24 @@ h1 {
   font-size: 42px;
   font-weight: 700; }
 
-#home {
-  padding-top: 10%;
-  text-align: center;
-  height: 500px; }
-
-#about {
+#about h1 {
+  background-color: #50E3C2;
+  color: #251F2F;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 0px 100px 0px 100px;
   text-align: center; }
-  #about h1 {
-    background-color: #50E3C2;
-    color: #251F2F;
-    width: 50%;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    padding: 0px 100px 0px 100px; }
+#about p {
+  width: 60%;
+  margin: 0 auto; }
 
 #events .event {
   display: flex;
   background-color: #635AE0;
-  margin: 0px 0px 50px 0px; }
+  margin: 0px 0px 50px 0px;
+  max-height: 400px; }
   #events .event div {
     margin: 20px;
     width: 50%; }
@@ -94,7 +96,8 @@ h1 {
     #events .event div p {
       font-size: 24px; }
   #events .event img {
-    width: 50%; }
+    width: 50%;
+    object-fit: cover; }
 
 #calendar {
   background-color: #767180; }

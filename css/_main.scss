@@ -38,13 +38,13 @@ $margin-size-secondary: 10px;
         height: 250px;
         width: 200px;
     }
+    padding-top: $header-height;
+    text-align: center;
+    height: $banner-height;
 }
 
 
-
-
 section {
-
     color: $font-color-light;
     margin: 0 auto;
     h1 {
@@ -98,26 +98,16 @@ nav {
         color: inherit;
         text-decoration: none;
     }
-    
+    font-family: 'Montserrat', sans-serif;
 }
 
-article {
-}
 
 h1 {
     font-size: 42px;
     font-weight: 700;
 }
 
-#home {
-    padding-top: $header-height;
-    text-align: center;
-    height: $banner-height;
-}
-
-
 #about {
-    text-align: center;
     h1 {
         background-color: #50E3C2;
         color: $background-color-primary;
@@ -126,6 +116,13 @@ h1 {
         margin-bottom: 30px;
         margin-top: 30px;
         padding: 0px 100px 0px 100px;
+        text-align: center;
+
+    }
+    p {
+
+        width: 60%;
+        margin: 0 auto;
     }
 }
 
@@ -146,8 +143,10 @@ h1 {
         }
         img {
             width: 50%;
+            object-fit: cover;
         }
         margin: 0px 0px 50px 0px;
+        max-height: 400px;
     }
 }
 
