@@ -5,18 +5,24 @@
   box-sizing: border-box; }
 
 #home {
-  background-image: url(../images/HGD_Spring_2020_Game_Jam_WEBSITE_ver1.png);
-  background-repeat: none;
-  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 10%;
+  background-image: url(../images/HGD_Spring_2020_Game_Jam_WEBSITE_ver2.png);
+  background-size: cover;
+  background-position: center center;
   text-align: center;
-  height: 500px; }
-  #home #main-header {
-    font-size: 60px; }
+  padding-top: 5em;
+  height: 40em; }
+  #home h1 {
+    position: relative;
+    color: #ffffff;
+    font-size: 4em;
+    line-height: 0.9;
+    text-align: center; }
   #home #logo img {
     height: 250px;
     width: 200px; }
@@ -48,7 +54,7 @@ nav {
   width: 100%;
   box-sizing: border-box;
   background: #767180;
-  height: 10%;
+  height: 5em;
   z-index: 9999;
   display: flex;
   align-items: center;
