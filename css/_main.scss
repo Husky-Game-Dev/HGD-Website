@@ -17,6 +17,8 @@ $font-size-content: 20px;
 $margin-size-primary: 20px;
 $margin-size-secondary: 10px;
 
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -203,8 +205,50 @@ h1 {
         width: 80%;
         margin: 0 auto;
     }
+
 }
 
-footer {
-    color: white;
+
+
+#social-media {
+    padding-top: 10px;
+    ul {
+        padding: 0;
+        list-style: none;
+    }
+    .social-icons {
+        li {
+            vertical-align: top;
+            display: inline;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+    .fa {
+        padding: 20px 20px;
+        -o-transition:.25s;
+        -ms-transition:.25s;
+        -moz-transition:.25s;
+        -webkit-transition:.25s;
+        transition: .25s;
+    }
+    .fa-facebook:hover {
+        background-color: #3d5b99;
+    }
+    .fa-twitter:hover {
+        background-color: #00aced;
+    }
+    .fa-youtube:hover {
+        background-color: #e64a41;
+    }
+    .fa-linkedin:hover {
+        background-color: #0073a4;
+    }
+    .fa-github:hover {
+        background-color: #5a32a3;
+    }
 }
+                   
+

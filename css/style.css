@@ -138,7 +138,33 @@ h1 {
     width: 80%;
     margin: 0 auto; }
 
-footer {
-  color: white; }
+#social-media {
+  padding-top: 10px; }
+  #social-media ul {
+    padding: 0;
+    list-style: none; }
+  #social-media .social-icons li {
+    vertical-align: top;
+    display: inline; }
+  #social-media .social-icons a {
+    color: #fff;
+    text-decoration: none; }
+  #social-media .fa {
+    padding: 20px 20px;
+    -o-transition: .25s;
+    -ms-transition: .25s;
+    -moz-transition: .25s;
+    -webkit-transition: .25s;
+    transition: .25s; }
+  #social-media .fa-facebook:hover {
+    background-color: #3d5b99; }
+  #social-media .fa-twitter:hover {
+    background-color: #00aced; }
+  #social-media .fa-youtube:hover {
+    background-color: #e64a41; }
+  #social-media .fa-linkedin:hover {
+    background-color: #0073a4; }
+  #social-media .fa-github:hover {
+    background-color: #5a32a3; }
 
 /*# sourceMappingURL=style.css.map */
