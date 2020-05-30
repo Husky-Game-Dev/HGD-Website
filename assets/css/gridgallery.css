@@ -260,10 +260,10 @@ span.nav-close:before {
 
 /* Example media queries (reduce number of columns and change slideshow layout) */
 
-@media screen and (max-width: 60em) {
+@media screen and (max-width: 60em) {*/
 	/* responsive columns; see "Element sizing" on http://masonry.desandro.com/options.html */
 	.grid-gal li {
-		width: 33.3%;
+		width: 100%;
 	}
 
 	.slideshow li {
