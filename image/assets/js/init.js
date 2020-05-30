@@ -42,7 +42,9 @@ jQuery( document ).ready(function( $ ) {
 	
 	/*** Auto height function ***/
 	var setElementHeight = function () {
-		var height = $(window).height();
+		//var height = $(window).height();
+		//console.log(height);
+		var height = "800px";
 		$('.autoheight').css('min-height', (height));
 		
 	};
@@ -78,7 +80,11 @@ jQuery( document ).ready(function( $ ) {
 	});
 	
 	/*** 3D Gallery *********/
-	new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+	var gridGalleries = document.getElementsByClassName( 'grid-gallery' );
+	for (var i = 0; i < gridGalleries.length; i++) {
+		new CBPGridGallery(gridGalleries[i]);
+	}
+	// new CBPGridGallery( document.getElementsByClassName( 'grid-gallery' ) );
 	new CBPFWTabs( document.getElementById( 'tabs-ui' ) );
 	
 	/********Vimeo Video*****************/

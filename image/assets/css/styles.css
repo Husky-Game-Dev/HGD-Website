@@ -40,7 +40,7 @@ body {
 	font-size: 14px;
 	font-style: normal;
 	line-height:1.5;
-	overflow:hidden;
+	/*overflow:hidden;*/
 
 }
 
@@ -109,7 +109,7 @@ p {
     line-height: 1.6em;
 }
 html{
-	overflow:hidden;
+	overflow:scroll;
 }
 .bottom-spacing{
 	margin-bottom:2.5%;
@@ -204,14 +204,14 @@ hr {
 /****************************/
 
 #sec_1 {
-	background: url("../img/bg_pattern.png") repeat scroll 0 0 rgba(33, 39, 57, 0.5);
+	background: url("../img/bg_pattern.png") repeat scroll 0 0 rgba(53, 55, 51, 0.5);
 	position: relative;
 	overflow: hidden;
 }
 
 .home-bg {
 	animation: 60s ease 0s normal none infinite back_animation;
-	background: url('../img/backgrounds/bg1.jpg') no-repeat center center;
+	background: url('../img/backgrounds/HGD_Spring_2020_Game_Jam_WEBSITE_ver1.png') no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -224,6 +224,10 @@ hr {
 	z-index: -1;
 }
 
+emph {
+	font-style: italic;
+	font-size: 0.7em;
+}
 @-webkit-keyframes back_animation {
 	0% {
 	-webkit-transform: scale(1);
@@ -353,7 +357,7 @@ hr {
 }
 
 #example-navbar-collapse {
-	float: right;
+	/* float: right; */
 }
 
 .navbar.navbar-default {
@@ -522,8 +526,8 @@ figure.vimeo-video{
 
 .block-hover {
 	
-	background: url("../img/gallery/gallery.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0);
-	height: 392px;
+	background: url("../img/HGD_Spring_2020_Game_Jam_Poster.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0);
+	/*height: 392px;*/
 	-webkit-transition: background .2s ;
 	-moz-transition: background .2s ;
 	-o-transition: background .2s ;
@@ -551,12 +555,12 @@ figure.vimeo-video{
     width: 100%;
 }
 .block-hover a {
-	display: block;
+	/*display: block;
 	height: 81px;
 	left: calc(50% - 55px);
 	position: absolute;
 	top: calc(50% - 40.5px);
-	width: 110px;
+	width: 110px;*/
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
@@ -577,8 +581,8 @@ figure.vimeo-video{
 	transition: opacity 0.5s;
 }
 
-.grid-gal figure.3d-gallery{
-	background: url("../assets/img/gallery/gallery.jpg") no-repeat scroll 0 0 / cover  rgba(0, 0, 0, 0);
+.grid-gal figure.3d-gallery { 
+	background: url("image\assets\img\HGD_Spring_2020_Game_Jam_Poster.jpg") no-repeat scroll 0 0 / cover  rgba(0, 0, 0, 0);
 }
 
 /*******************************/
@@ -2161,4 +2165,8 @@ ul.legals li:last-child::after {
 
 #modal-10 li{
 	margin-bottom:20px;
+}
+
+.calendar {
+	margin-top: 20px;
 }
