@@ -1855,7 +1855,7 @@ ul.planContainer {
 
 .subscribe-overlay{
 	
-    background: url("../img/macbook.jpg") no-repeat fixed center center / cover  rgba(0, 0, 0, 0);
+    /*background: url("../img/macbook.jpg") no-repeat fixed center center / cover  rgba(0, 0, 0, 0);*/
     height: 100%;
     left: 0;
     position: absolute;
