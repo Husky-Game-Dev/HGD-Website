@@ -8,21 +8,21 @@
 	<!-- FAVICON -->
 	<link rel="shortcut icon" href="icons/favicon.ico">
 	<link rel="icon" sizes="16x16 32x32 64x64" href="icons/favicon.ico">
-	<link rel="icon" type="image/png" sizes="196x196"   href="icons/favicon-192.png">
-	<link rel="icon" type="image/png" sizes="160x160"   href="icons/favicon-160.png">
-	<link rel="icon" type="image/png" sizes="96x96"     href="icons/favicon-96.png">
-	<link rel="icon" type="image/png" sizes="64x64"     href="icons/favicon-64.png">
-	<link rel="icon" type="image/png" sizes="32x32"     href="icons/favicon-32.png">
-	<link rel="icon" type="image/png" sizes="16x16"     href="icons/favicon-16.png">
+	<link rel="icon" type="image/png" sizes="196x196" href="icons/favicon-192.png">
+	<link rel="icon" type="image/png" sizes="160x160" href="icons/favicon-160.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="icons/favicon-64.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16.png">
 	<link rel="apple-touch-icon" href="icons/favicon-57.png">
-	<link rel="apple-touch-icon" sizes="114x114"    href="icons/favicon-114.png">
-	<link rel="apple-touch-icon" sizes="72x72"      href="icons/favicon-72.png">
-	<link rel="apple-touch-icon" sizes="144x144"    href="icons/favicon-144.png">
-	<link rel="apple-touch-icon" sizes="60x60"      href="icons/favicon-60.png">
-	<link rel="apple-touch-icon" sizes="120x120"    href="icons/favicon-120.png">
-	<link rel="apple-touch-icon" sizes="76x76"      href="icons/favicon-76.png">
-	<link rel="apple-touch-icon" sizes="152x152"    href="icons/favicon-152.png">
-	<link rel="apple-touch-icon" sizes="180x180"    href="icons/favicon-180.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="icons/favicon-114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="icons/favicon-72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="icons/favicon-144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="icons/favicon-60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="icons/favicon-120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="icons/favicon-76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="icons/favicon-152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="icons/favicon-180.png">
 	<meta name="msapplication-TileColor" content="#FFFFFF">
 	<meta name="msapplication-TileImage" content="icons/favicon-144.png">
 	<meta name="msapplication-config" content="icons/browserconfig.xml">
@@ -32,8 +32,7 @@
 
 	<!-- DESCRIPTION -->
 	<meta name="description" content="Husky Game Dev Club Website" />
-	<meta name="keywords"
-		content="Event, Game, Gaming, Husky, Dev, Development, Club, UW, Bothell, Mailchimp" />
+	<meta name="keywords" content="Event, Game, Gaming, Husky, Dev, Development, Club, UW, Bothell, Mailchimp" />
 	<meta name="author" content="Isabel Giang" />
 
 	<!-- GOOGLE FONTS -->
@@ -50,6 +49,9 @@
 	<link href="assets/css/venobox.css" rel="stylesheet" type="text/css" />
 	<link href="assets/css/styles.css" rel="stylesheet" />
 	<link href="assets/css/queries.css" rel="stylesheet" />
+	<link href="assets/slick/slick.css" rel="stylesheet" />
+	<link href="assets/slick/slick-theme.css" rel="stylesheet" />
+
 
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -87,6 +89,7 @@
 						<li><a data-scroll href="#responsive">Workshops</a></li>
 						<li><a data-scroll href="#team">Officers</a></li>
 						<li><a data-scroll href="#portfolio">Calendar</a></li>
+						<!--<li><a data-scroll href="#blog">Blog</a></li>-->
 						<li><a data-scroll href="#contact">Contact</a></li>
 					</ul>
 				</div>
@@ -102,10 +105,6 @@
 			<h1 class="wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="1s">Husky Game Dev</h1>
 			<!--<hr id="title_hr" />-->
 			<img class="wow animated fadeInDown" src="assets/img/HGD_Transparent_Logo.png" style="height: 18.75em">
-			<!--<p class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="1s">Grand Space, Portland. 21-26
-				Sept 2014</p>-->
-			<!--<a class="learn-more-btn btn-effect wow animated fadeIn" data-wow-duration="0.5s" data-wow-delay="1.5s"
-				data-scroll href="#swag">Register</a>-->
 		</div>
 	</section>
 	<!--/HOME-->
@@ -117,304 +116,92 @@
 				<div class="col-lg-8 align-center about">
 					<h1 class="arrow">Who We Are</h1>
 					<hr>
-					<p>Husky Game Dev is a student organization aimed at supporting indie game development at the Bothell campus of the University of Washington.
-						Our goal is to provide a community, educational opportunities, and resources for UWB students to learn skills related to game development and connect with industry professionals.</p>
+					<p>Husky Game Dev is a student organization aimed at supporting indie game development at the
+						Bothell campus of the University of Washington.
+						Our goal is to provide a community, educational opportunities, and resources for UWB students to
+						learn skills related to game development and connect with industry professionals.</p>
 				</div>
 			</div>
 		</div>
 	</section>
 	<!--/ABOUT-->
 
-
-	<!--FEATURES-->
-	<section class="features text-center" id="features" style="display: none">
-		<div class="row">
-			<div id="grid-gallery" class="grid-gallery">
-				<section class="grid-wrap">
-					<div class="grid-gal">
-						<figure class="wow animated fadeInLeft block-hover 3d-gallery col-lg-3 col-sm-12">
-							<a href="#">
-								<span>GAME JAM GALLERY</span>
-							</a>
-						</figure>
-					</div>
-				</section>
-				<!--grid wrap-->
-
-				<!-- slideshow -->
-				<section class="slideshow">
-					<ul>
-						<li>
-							<figure>
-								<img src="assets/img/game-jam/XIZgrD.png" alt="img01" />
-								<figcaption>
-									<hr />
-									<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
-										bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<img src="assets/img/gallery/2.jpg" alt="img02" />
-								<figcaption>
-									<hr />
-									<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
-										bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<img src="assets/img/gallery/3.jpg" alt="img03" />
-								<figcaption>
-									<hr />
-									<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
-										bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<img src="assets/img/gallery/1.jpg" alt="img01" />
-								<figcaption>
-									<hr />
-									<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
-										bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<img src="assets/img/gallery/2.jpg" alt="img02" />
-								<figcaption>
-									<hr />
-									<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
-										bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-								</figcaption>
-							</figure>
-						</li>
-
-					</ul>
-					<nav>
-						<span class="nav-prev fa-chevron-left fa fa-2x "></span>
-						<span class="nav-next fa-chevron-right fa fa-2x"></span>
-						<span class="close nav-close"><i class="fa fa-times"></i></span>
-					</nav>
-				</section>
-				<!-- /slideshow -->
-			</div>
-			<!-- /grid-gallery -->
-
-			<div class="container col-lg-6 col-md-12 features-md">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="features-wrapper">
-							<div class="col-md-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-								<div class="icon">
-									72+
-								</div>
-								<h2>hours</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis interdum.
-								</p>
-							</div>
-
-							<div class="col-md-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
-								<div class="icon">
-									16+
-								</div>
-								<h2>speakers</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis interdum.
-								</p>
-							</div>
-
-							<div class="col-md-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.9s">
-								<div class="icon">
-									25+
-								</div>
-								<h2>technologies</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis interdum.
-								</p>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<!-- Vimoe Video-->
-			<div class="grid-gal">
-				<figure class="block-hover vimeo-video col-lg-3 col-sm-12">
-					<a class="venoboxvid" data-type="vimeo" href="http://vimeo.com/75976293" target="_self">
-						<img src="assets/img/vdo-icn.png" alt="video_hover">
-						<span>VIDEO</span>
-					</a>
-				</figure>
-			</div>
-
-		</div>
-		<!--row ends here-->
-	</section>
-	<!--/FEATURES-->
-
-
 	<!--SHOWCASE-->
 	<section class="contact-wrap text-center section-padding" id="gamejams">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 wow animated fadeInLeft align-center" data-wow-duration="1s" data-wow-delay="0.3s">
+				<div class="col-md-8 wow animated fadeInLeft align-center" style="margin-bottom: 40px;"
+					data-wow-duration="1s" data-wow-delay="0.3s">
 					<h1 class="arrow">Game Jams</h1>
 					<hr>
-					<p style="color: white">Every quarter we hold a game jam that gives students an incentive to get coding and developing games for fun! This is a perfect opportunity for you to form teams, brainstorm ideas, and make your game ideas come to life!
+					<p style="color: white">Every quarter, Husky Game Dev holds a game jam that gives students an
+						incentive to get coding and developing games for fun! This is a perfect opportunity for you to
+						form teams, brainstorm ideas, and make your game ideas come to life!
 					</p>
 				</div>
 			</div>
 
-			<div id="grid-gallery" class="grid-gallery">
-				<section class="grid-wrap">
-					<div class="grid-gal">
-						<figure style="margin: 40px 0px 0px 0px; padding: 0px;" class="block-hover 3d-gallery col-lg-6 col-sm-12">
-							<a href="#"><img src="assets/img/HGD_Spring_2020_Game_Jam_Poster.jpg" alt="img1">
-								<span>GAME JAM GALLERY</span>
+			<div class="game-jams">
+				<div class="winter2020" style="min-height: 530px;">
+					<h2 class="game-jam-header">Winter 2020 Game Jam</h2>
+					<h3 class="game-jam-subheader">Theme: Ice</h3>
+						<div class="col-lg-6 game-jam-submissions">
+							<div>
+								<a href="https://itch.io/jam/uwb-winter-project/rate/582363" target="_blank">
+									<img src="assets/img/game-jam/freezyfiends-promo.PNG">
+								</a>
+								<div class="game-jam-submission-description">
+									<strong>Freezy Fiends</strong> Multiplayer snowball fight game. Fight with your friends or with fiends. (3 - 8 players)
+								</div>
+							</div>
+							<div>
+								<a href="https://itch.io/jam/uwb-winter-project/rate/582297" target="_blank"> 
+									<img src="assets/img/game-jam/gelidry-promo.PNG">
+								</a>
+								<div class="game-jam-submission-description">
+									<strong>Gelidry</strong> You wake up in an unfamiliar place. Through this short visual novel, you'll get to investigate around to learn more about you, where you are, and what might have happened.
+								</div>
+							</div>
+						</div>
+						<div id="winter2020-gamejam-description" class="col-lg-6 game-jam-description">
+							<p><strong>Duration: </strong> January 17th, 2020 - March 5th, 2020</p>
+							<p><strong>Panelists: </strong> Vincent Allen, Hao Duong</p>
+						</div>
+				</div>
+				<div class="spring2020" style="min-height: 530px;">
+					<h2 class="game-jam-header" style="color: black">Spring 2020 Game Jam</h2>
+					<h3 class="game-jam-subheader" style="color: black">Theme: Wilderness</h3>
+					<div class="col-lg-6 game-jam-submissions">
+						<div>
+							<a href="https://itch.io/jam/uwb-winter-project/rate/582363" target="_blank">
+								<img src="assets/img/game-jam/freezyfiends-promo.PNG">
 							</a>
-						</figure>
+							<div class="game-jam-submission-description">
+								<strong>Freezy Fiends</strong> Multiplayer snowball fight game. Fight with your friends or with fiends. (3 - 8 players)
+							</div>
+						</div>
+						<div>
+							<a href="https://itch.io/jam/uwb-winter-project/rate/582297" target="_blank"> 
+								<img src="assets/img/game-jam/gelidry-promo.PNG">
+							</a>
+							<div class="game-jam-submission-description">
+								<strong>Gelidry</strong> You wake up in an unfamiliar place. Through this short visual novel, you'll get to investigate around to learn more about you, where you are, and what might have happened.
+							</div>
+						</div>
 					</div>
-				</section>
-				<!--grid wrap-->
+					<div class="col-lg-6 game-jam-description">
+						<p><strong>Duration:</strong> April 13, 2020 - May 23, 2020</p>
+						<p><strong>Panelists: </strong> Vincent Allen, Hao Duong, Mark Chen, Yusuf Pisan</p>
+					</div>
+				</div>
+				<div class="summer2020" style="min-height: 530px;">
+					<h2 class="game-jam-header">Summer 2020 Game Jam</h2>
+					<h3 class="game-jam-subheader">Theme: ???</h2>
+						<div class="game-jam-description" style="text-align: center">
+							The details of this event are still being planned. Come back later!
+						</div>
 
-				<!-- slideshow -->
-				<section class="slideshow">
-					<ul>
-						<li>
-							<figure>
-								<a href="https://itch.io/jam/uwb-spring-jam/rate/656823">
-									<img src="assets/img/game-jam/XIZgrD.png" alt="img01" />
-								</a>
-								<figcaption>
-									<strong>Kabala's Child</strong>
-									<hr />
-									<p>Survival game. :) Inspired by Dark Souls and Minecraft. Find the hidden village!</p>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<a href="https://itch.io/jam/uwb-spring-jam/rate/654187">
-									<img src="assets/img/game-jam/jsc2Za.png" alt="img02" />
-								</a>
-								<figcaption>
-									<strong>Signed, Barold</strong>
-									<hr />
-									<p>As the Mayor, you're faced with a decision that could forever change the future of lovely Bear Shire, and perhaps even the integrity of your wilderness-integrated home.
-
-										Who will you side with? 
-										
-										The large corporation, Selkirk Sustainable, or the infamous Bearbino Clan?
-										
-										Choose your words carefully!</p>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<a href="https://itch.io/jam/uwb-spring-jam/rate/645628">
-									<img src="assets/img/game-jam/F1SpuK.png" alt="img03" />
-								</a>
-								<figcaption>
-									<strong>Flower Ducky</strong>
-									<hr />
-									<p>Plant trees to get to the flower on the other side!
-									</p>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<a href="https://itch.io/jam/uwb-spring-jam/rate/656680">
-									<img src="assets/img/game-jam/9eIFxo.png" alt="img04" />
-								</a>
-								<figcaption>
-									<strong>Mush Rush</strong>
-									<hr />
-									<p>Mushie is tired of the polluted world he lives in. 
-									   Help him on his journey through the forest to find a world that’s pollution free! 
-									</p>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<a href="https://itch.io/jam/uwb-spring-jam/rate/649053">
-									<img src="assets/img/game-jam/4OraqX.png" alt="img05" />
-								</a>
-								
-								<figcaption>
-									<strong>Salmonator</strong>
-									<hr />
-									<p>
-										Try to survive as a salmon against an endless assault of garbage and monsters!
-									</p>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<figcaption>
-									<a href="https://itch.io/jam/uwb-spring-jam/rate/650461">
-										<img src="assets/img/RUDLKb.png" alt="img06"/>
-									</a>
-									<strong>Forest Escape</strong>
-									<hr/>
-									<p>
-										You are a lucky survivor that crashed in the wilderness, you must use the items around to find a way to survive and escape the forest!
-									</p>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<figcaption>
-									<a href="https://itch.io/jam/uwb-spring-jam/rate/656833">
-										<img src="assets/img/gallery/2.jpg" alt="img06"/>
-									</a>
-									<strong>Leaf & Light</strong>
-									<hr/>
-									<p>
-										Grow your tree to the sun.
-									</p>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<figcaption>
-									<a href="https://itch.io/jam/uwb-spring-jam/rate/651105">
-										<img src="assets/img/gallery/2.jpg" alt="img06"/>
-									</a>
-									<strong>Log Dodge</strong>
-									<hr/>
-									<p>
-										Dodge logs and garbage to steal a lumberjack's lunch and save the forest.
-									</p>
-								</figcaption>
-							</figure>
-						</li>
-					</ul>
-					<nav>
-						<span class="nav-prev fa-chevron-left fa fa-2x "></span>
-						<span class="nav-next fa-chevron-right fa fa-2x"></span>
-						<span class="close nav-close"><i class="fa fa-times"></i></span>
-					</nav>
-				</section>
-				<!-- /slideshow -->
-			</div>
-			<!-- /grid-gallery -->
-			<div class="col-lg-6">
-				 <p style="margin: 40px 0 0 0; color: white;">
-					 Current Game Jam Status: <strong>COMPLETED</strong>
-					 
-					 
-				 </p>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -427,7 +214,9 @@
 				<div class="col-md-8 align-center wow animated fadeInLeft">
 					<h1 class="arrow">Workshops</h1>
 					<hr>
-					<p>Learn more about game development through our workshops! We will walk you through skills that will teach you how to be a game developer and designer.
+					<p>
+						Learn more about game development with Husky Game Dev through our workshops!
+						We will walk you through skills that will teach you how to be a game developer and designer.
 					</p>
 				</div>
 			</div>
@@ -441,8 +230,6 @@
 						<li><a href="#section-1"><span>Spring 2020</span></a></li>
 						<li><a href="#section-2"><span>Summer 2020</span></a></li>
 						<li><a href="#section-3"><span>Autumn 2020</span></a></li>
-						<!--<li><a href="#section-4"><span>Day4</span></a></li>
-						<li><a href="#section-5"><span>Day5</span></a></li>-->
 					</ul>
 				</nav>
 				<div class="content">
@@ -452,7 +239,9 @@
 								<div class="day">Spring Quarter Workshops</div>
 								<div class="item clearfix">
 									<div class="heading clearfix">
-										<div class="time col-md-3 col-sm-12 col-xs-12">April 10, 2020 </br><emph>3:30pm - 5:30pm</emph></div>
+										<div class="time col-md-3 col-sm-12 col-xs-12">April 10, 2020 </br>
+											<emph>3:30pm - 5:30pm</emph>
+										</div>
 										<div class="e-title col-md-9 col-sm-12 col-xs-12">
 											2D Sprites and Sprite Sheets<br />
 											<span class="name">Adrienne Co - </span>
@@ -464,23 +253,30 @@
 									<div class="col-md-12 col-sm-12 col-xs-12">
 										<div class="content venue col-md-3 col-sm-12 col-xs-12">
 											<div class="workshop-preview">
-												<a href="https://docs.google.com/presentation/d/1je6x5NvNsz9_GK5jnXZ7UjCEgAuKc8-wCDgkpoqr9jw/edit?usp=sharing">
-													<img src="assets/img/workshops/spring2020-2dsprites.png" style="max-width: 150px;">
+												<a href="https://docs.google.com/presentation/d/1je6x5NvNsz9_GK5jnXZ7UjCEgAuKc8-wCDgkpoqr9jw/edit?usp=sharing"
+													target="_blank">
+													<img src="assets/img/workshops/spring2020-2dsprites.png"
+														style="max-width: 150px;">
 												</a>
 											</div>
 											Location: <a href="https://discord.gg/S6FtpSD"> <strong>Discord</strong></a>
 										</div>
 										<div class="content details col-md-9 col-sm-12 col-xs-12">
-											A workshop on how to make 2D sprites, use sprite sheets, and recommended programs to do so. 
-											We will also cover what dimensions you should use, spacing, importing them into Unity, and using them as proper sprites in Unity.
+											A workshop on how to make 2D sprites, use sprite sheets, and recommended
+											programs to do so.
+											We will also cover what dimensions you should use, spacing, importing them
+											into Unity, and using them as proper sprites in Unity.
 										</div>
 									</div>
 								</div>
 
 								<div class="item clearfix">
 									<div class="heading">
-										<div class="time col-md-3 col-sm-12 col-xs-12">April 15, 2020</br> <emph>3:30pm - 5:30pm</emph></div>
-										<div class="e-title col-md-9 col-sm-12 col-xs-12"> 2D Platformer Movement in Unity<br />
+										<div class="time col-md-3 col-sm-12 col-xs-12">April 15, 2020</br>
+											<emph>3:30pm - 5:30pm</emph>
+										</div>
+										<div class="e-title col-md-9 col-sm-12 col-xs-12"> 2D Platformer Movement in
+											Unity<br />
 											<span class="name">Hao Duong -</span>
 											<span class="speaker-designaition">Technical Director</span></br>
 											<!--<span class="name">Isabel Giang - </span>
@@ -490,15 +286,19 @@
 									<div class="col-md-12 col-sm-12 col-xs-12">
 										<div class="content venue col-md-3 col-sm-12 col-xs-12">
 											<div class="workshop-preview">
-												<a href="https://drive.google.com/open?id=1VWf5eIewersDpyF-s-HexYMrepF3l43rYggh9ubc4Nw">
-													<img src="assets/img/workshops/spring2020-2dmovement.png" style="max-width: 150px;">
+												<a href="https://drive.google.com/open?id=1VWf5eIewersDpyF-s-HexYMrepF3l43rYggh9ubc4Nw"
+													target="_blank">
+													<img src="assets/img/workshops/spring2020-2dmovement.png"
+														style="max-width: 150px;">
 												</a>
 											</div>
 											Location: <a href="https://discord.gg/S6FtpSD"> <strong>Discord</strong></a>
 										</div>
 										<div class="content details col-md-9 col-sm-12 col-xs-12">
-											A workshop on basic player / camera scripts in a 2D / platformer game. 
-											You will learn how to implement movement scripts (ground check, speed, jumping, sprite flips), platform collision, and camera following with screen clamping.
+											A workshop on basic player / camera scripts in a 2D / platformer game.
+											You will learn how to implement movement scripts (ground check, speed,
+											jumping, sprite flips), platform collision, and camera following with screen
+											clamping.
 											Unity is required for this workshop.
 										</div>
 									</div>
@@ -506,23 +306,31 @@
 
 								<div class="item clearfix">
 									<div class="heading">
-										<div class="time col-md-3 col-sm-12 col-xs-12">April 24, 2020</br> <emph>4:30pm - 6:30pm</emph></div>
-										<div class="e-title col-md-9 col-sm-12 col-xs-12">Introduction to Game Development<br /><span
-												class="name">HGD x ACM Collab</span></div>
+										<div class="time col-md-3 col-sm-12 col-xs-12">April 24, 2020</br>
+											<emph>4:30pm - 6:30pm</emph>
+										</div>
+										<div class="e-title col-md-9 col-sm-12 col-xs-12">Introduction to Game
+											Development<br /><span class="name">HGD x ACM Collab</span></div>
 									</div>
 									<div class="col-md-12 col-sm-12 col-xs-12">
 										<div class="content venue col-md-3 col-sm-12 col-xs-12">
 											<div class="workshop-preview">
-												<a href="https://docs.google.com/presentation/d/1Nd8r4TpzPnCIx7767Am_TGMz9lCybP1AvCJ2Jbu11dE/edit?usp=sharing">
-													<img src="assets/img/workshops/spring2020-introgamedev.png" style="max-width: 150px;">
+												<a href="https://docs.google.com/presentation/d/1Nd8r4TpzPnCIx7767Am_TGMz9lCybP1AvCJ2Jbu11dE/edit?usp=sharing"
+													target="_blank">
+													<img src="assets/img/workshops/spring2020-introgamedev.png"
+														style="max-width: 150px;">
 												</a>
 											</div>
-											Location: <a href="https://washington.zoom.us/j/99761205683"> <strong>Zoom</strong></a>
+											Location: <a href="https://washington.zoom.us/j/99761205683">
+												<strong>Zoom</strong></a>
 										</div>
 										<div class="content details col-md-9 col-sm-12 col-xs-12">
-											The first of 3 collaborative workshops with <a href="https://uwbacm.com/"><strong>UWB ACM.</strong></a>.</br>
-											Presented by HGD officers Vincent Allen, Adrienne Co, and Hao Duong, and ACM officers Jay Quedado and Cameron Ufland.</br>
-											We will go over important roles and elements of game development, as well as resources and tools for students to begin creating their own games. 
+											The first of 3 collaborative workshops with <a
+												href="https://uwbacm.com/"><strong>UWB ACM.</strong></a>.</br>
+											Presented by HGD officers Vincent Allen, Adrienne Co, and Hao Duong, and ACM
+											officers Jay Quedado and Cameron Ufland.</br>
+											We will go over important roles and elements of game development, as well as
+											resources and tools for students to begin creating their own games.
 											Prior experience with creating games is not required!
 										</div>
 									</div>
@@ -530,31 +338,42 @@
 
 								<div class="item clearfix">
 									<div class="heading">
-										<div class="time col-md-3 col-sm-12 col-xs-12">May 15, 2020</br> <emph>4:30pm - 5:30pm</emph></div>
-										<div class="e-title col-md-9 col-sm-12 col-xs-12">Game Development Processes<br />
+										<div class="time col-md-3 col-sm-12 col-xs-12">May 15, 2020</br>
+											<emph>4:30pm - 5:30pm</emph>
+										</div>
+										<div class="e-title col-md-9 col-sm-12 col-xs-12">Game Development
+											Processes<br />
 											<span class="name">HGD x ACM Collab</span>
 										</div>
 									</div>
 									<div class="col-md-12 col-sm-12 col-xs-12">
 										<div class="content venue col-md-3 col-sm-12 col-xs-12">
 											<div class="workshop-preview">
-												<a href="https://docs.google.com/presentation/d/1ysYxauHynKenzDTSTMkc-irz8yJ27jP0zqe20rpmN1Y/edit?usp=sharing">
-													<img src="assets/img/workshops/spring2020-gameprocesses.png" style="max-width: 150px;">
+												<a href="https://docs.google.com/presentation/d/1ysYxauHynKenzDTSTMkc-irz8yJ27jP0zqe20rpmN1Y/edit?usp=sharing"
+													target="_blank">
+													<img src="assets/img/workshops/spring2020-gameprocesses.png"
+														style="max-width: 150px;">
 												</a>
 											</div>
-											Location: <a href="https://washington.zoom.us/j/99980474128"> <strong>Zoom</strong></a>
+											Location: <a href="https://washington.zoom.us/j/99980474128">
+												<strong>Zoom</strong></a>
 										</div>
 										<div class="content details col-md-9 col-sm-12 col-xs-12">
-											The second of 3 collaborative workshops with <a href="https://uwbacm.com/"><strong>UWB ACM.</strong></a></br>
-											Presented by HGD officers Vincent Allen, Adrienne Co, and Hao Duong, and ACM officers Jay Quedado and Cameron Ufland.</br>
-											Learn how to set up a game development environment, plan the development of your game, and how to effectively collaborate with other people on a game.
+											The second of 3 collaborative workshops with <a
+												href="https://uwbacm.com/"><strong>UWB ACM.</strong></a></br>
+											Presented by HGD officers Vincent Allen, Adrienne Co, and Hao Duong, and ACM
+											officers Jay Quedado and Cameron Ufland.</br>
+											Learn how to set up a game development environment, plan the development of
+											your game, and how to effectively collaborate with other people on a game.
 										</div>
 									</div>
 								</div>
 
 								<div class="item clearfix">
 									<div class="heading">
-										<div class="time col-md-3 col-sm-12 col-xs-12">May 22, 2020</br> <emph>4:30pm - 5:30pm</emph></div>
+										<div class="time col-md-3 col-sm-12 col-xs-12">May 22, 2020</br>
+											<emph>4:30pm - 5:30pm</emph>
+										</div>
 										<div class="e-title col-md-9 col-sm-12 col-xs-12">Game Engines<br />
 											<span class="name">HGD x ACM Collab </span>
 										</div>
@@ -562,17 +381,24 @@
 									<div class="col-md-12 col-sm-12 col-xs-12">
 										<div class="content venue col-md-3 col-sm-12 col-xs-12">
 											<div class="overlay-effect effects clearfix workshop-preview">
-												<a href="https://docs.google.com/presentation/d/1XyXr_0tvfcbxOIs5_J-GMVjqHKZg0wxKq6gVyfk1ZHs/edit?usp=sharing">
-													<img src="assets/img/workshops/spring2020-gameengines.png" style="max-width: 150px;">
+												<a href="https://docs.google.com/presentation/d/1XyXr_0tvfcbxOIs5_J-GMVjqHKZg0wxKq6gVyfk1ZHs/edit?usp=sharing"
+													target="_blank">
+													<img src="assets/img/workshops/spring2020-gameengines.png"
+														style="max-width: 150px;">
 												</a>
-												
+
 											</div>
-											Location: <a href="https://washington.zoom.us/j/97812881400"> <strong>Zoom</strong></a>
+											Location: <a href="https://washington.zoom.us/j/97812881400">
+												<strong>Zoom</strong></a>
 										</div>
 										<div class="content details col-md-9 col-sm-12 col-xs-12">
-											The third of 3 collaborative workshops with <a href="https://uwbacm.com/"><strong>UWB ACM.</strong></a></br>
-											Presented by HGD officers Vincent Allen, Adrienne Co, and Hao Duong, and ACM officers Jay Quedado and Cameron Ufland.</br>
-											Learn about what a game engine is, the differences between common game engines like Unity, RPGMaker, and Godot, and how to choose a game engine for a game development project.
+											The third of 3 collaborative workshops with <a
+												href="https://uwbacm.com/"><strong>UWB ACM.</strong></a></br>
+											Presented by HGD officers Vincent Allen, Adrienne Co, and Hao Duong, and ACM
+											officers Jay Quedado and Cameron Ufland.</br>
+											Learn about what a game engine is, the differences between common game
+											engines like Unity, RPGMaker, and Godot, and how to choose a game engine for
+											a game development project.
 										</div>
 									</div>
 								</div>
@@ -586,388 +412,16 @@
 							<div class="accordion">
 								<div class="day">Summer Quarter Workshops</div>
 								<div class="item clearfix">
-									<!--<div class="heading clearfix">
-										<div class="time col-md-3 col-sm-12 col-xs-12">9:30am - 11:30am</div>
-										<div class="e-title col-md-9 col-sm-12 col-xs-12">Overview - Nisi elit
-											consequat<br /><span class="name">Andrew Yang - </span><span
-												class="speaker-designaition">CEO, Microsoft</span></div>
-									</div>
-									<div class="col-md-12 col-sm-12 col-xs-12">
-										<div class="content venue col-md-3 col-sm-12 col-xs-12">
-											Venue: Auditorium 1
-										</div>
-										<div class="content details col-md-9 col-sm-12 col-xs-12">
-											This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-											auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design. Proin gravida nibh vel velit auctor
-											aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design.
-										</div>
-									</div>
+									<p>TBD. Check back later!</p>
 								</div>
-
-								<div class="item clearfix">
-									<div class="heading">
-										<div class="time col-md-3 col-sm-12 col-xs-12">11:30am - 1:00pm</div>
-										<div class="e-title col-md-9 col-sm-12 col-xs-12">Aenean sollicitudin quis
-											bibendum auctor<br /><span class="name">Andrew Yang - </span><span
-												class="speaker-designaition">CEO, Microsoft</span></div>
-									</div>
-									<div class="col-md-12 col-sm-12 col-xs-12">
-										<div class="content venue col-md-3 col-sm-12 col-xs-12">
-											Venue: Auditorium 1
-										</div>
-										<div class="content details col-md-9 col-sm-12 col-xs-12">
-											This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-											auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design. Proin gravida nibh vel velit auctor
-											aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design.
-										</div>
-									</div>
-								</div>
-
-								<div class="item clearfix">
-									<div class="heading">
-										<div class="time col-md-3 col-sm-12 col-xs-12">1:00pm - 2:00pm</div>
-										<div class="e-title col-md-9 col-sm-12 col-xs-12">Catered Lunch<br /><span
-												class="name">Sponsered </span></div>
-									</div>
-									<div class="col-md-12 col-sm-12 col-xs-12">
-										<div class="content venue col-md-3 col-sm-12 col-xs-12">
-											Venue: Auditorium 1
-										</div>
-										<div class="content details col-md-9 col-sm-12 col-xs-12">
-											This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-											auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design. Proin gravida nibh vel velit auctor
-											aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design.
-										</div>
-									</div>
-								</div>
-
-								<div class="item clearfix">
-									<div class="heading">
-										<div class="time col-md-3 col-sm-12 col-xs-12">3:00pm - 4:30pm</div>
-										<div class="e-title col-md-9 col-sm-12 col-xs-12">Sagittis sem nibh id
-											elit<br /><span class="name">Mary Doe - </span><span
-												class="speaker-designaition">Lead Designer, Microsoft</span></div>
-									</div>
-									<div class="col-md-12 col-sm-12 col-xs-12">
-										<div class="content venue col-md-3 col-sm-12 col-xs-12">
-											Venue: Auditorium 1
-										</div>
-										<div class="content details col-md-9 col-sm-12 col-xs-12">
-											This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-											auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design. Proin gravida nibh vel velit auctor
-											aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design.
-										</div>
-									</div>
-								</div>-->
-								<p>TBD. Check back later!</p>
 							</div>
-						</div>
 					</section>
 					<section id="section-3">
 						<div class="container">
 							<div class="accordion">
 								<div class="day">Autumn Quarter Workshops</div>
 								<div class="item clearfix">
-									<!--<div class="heading clearfix">
-										<div class="time col-md-3 col-sm-12 col-xs-12">9:30am - 11:30am</div>
-										<div class="e-title col-md-9 col-sm-12 col-xs-12">Overview - Nisi elit
-											consequat<br /><span class="name">Andrew Yang - </span><span
-												class="speaker-designaition">CEO, Microsoft</span></div>
-									</div>
-									<div class="col-md-12 col-sm-12 col-xs-12">
-										<div class="content venue col-md-3 col-sm-12 col-xs-12">
-											Venue: Auditorium 1
-										</div>
-										<div class="content details col-md-9 col-sm-12 col-xs-12">
-											This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-											auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design. Proin gravida nibh vel velit auctor
-											aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design.
-										</div>
-									</div>
-								</div>
-
-								<div class="item clearfix">
-									<div class="heading">
-										<div class="time col-md-3 col-sm-12 col-xs-12">11:30am - 1:00pm</div>
-										<div class="e-title col-md-9 col-sm-12 col-xs-12">Aenean sollicitudin quis
-											bibendum auctor<br /><span class="name">Andrew Yang - </span><span
-												class="speaker-designaition">CEO, Microsoft</span></div>
-									</div>
-									<div class="col-md-12 col-sm-12 col-xs-12">
-										<div class="content venue col-md-3 col-sm-12 col-xs-12">
-											Venue: Auditorium 1
-										</div>
-										<div class="content details col-md-9 col-sm-12 col-xs-12">
-											This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-											auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design. Proin gravida nibh vel velit auctor
-											aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design.
-										</div>
-									</div>
-								</div>
-
-								<div class="item clearfix">
-									<div class="heading">
-										<div class="time col-md-3 col-sm-12 col-xs-12">1:00pm - 2:00pm</div>
-										<div class="e-title col-md-9 col-sm-12 col-xs-12">Catered Lunch<br /><span
-												class="name">Sponsered </span></div>
-									</div>
-									<div class="col-md-12 col-sm-12 col-xs-12">
-										<div class="content venue col-md-3 col-sm-12 col-xs-12">
-											Venue: Auditorium 1
-										</div>
-										<div class="content details col-md-9 col-sm-12 col-xs-12">
-											This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-											auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design. Proin gravida nibh vel velit auctor
-											aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design.
-										</div>
-									</div>
-								</div>
-
-								<div class="item clearfix">
-									<div class="heading">
-										<div class="time col-md-3 col-sm-12 col-xs-12">3:00pm - 4:30pm</div>
-										<div class="e-title col-md-9 col-sm-12 col-xs-12">Sagittis sem nibh id
-											elit<br /><span class="name">Mary Doe - </span><span
-												class="speaker-designaition">Lead Designer, Microsoft</span></div>
-									</div>
-									<div class="col-md-12 col-sm-12 col-xs-12">
-										<div class="content venue col-md-3 col-sm-12 col-xs-12">
-											Venue: Auditorium 1
-										</div>
-										<div class="content details col-md-9 col-sm-12 col-xs-12">
-											This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-											auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design. Proin gravida nibh vel velit auctor
-											aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design.
-										</div>
-									</div>
-								</div>-->
-								<p>TBD. Check back later!</p>
-								</div>
-							</div>
-						</div>
-					</section>
-					<section id="section-4">
-						<div class="container">
-							<div class="accordion">
-								<div class="day">September 18, 2014</div>
-								<div class="item clearfix">
-									<div class="heading clearfix">
-										<div class="time col-md-3 col-sm-12 col-xs-12">9:30am - 11:30am</div>
-										<div class="e-title col-md-9 col-sm-12 col-xs-12">Overview - Nisi elit
-											consequat<br /><span class="name">Andrew Yang - </span><span
-												class="speaker-designaition">CEO, Microsoft</span></div>
-									</div>
-									<div class="col-md-12 col-sm-12 col-xs-12">
-										<div class="content venue col-md-3 col-sm-12 col-xs-12">
-											Venue: Auditorium 1
-										</div>
-										<div class="content details col-md-9 col-sm-12 col-xs-12">
-											This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-											auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design. Proin gravida nibh vel velit auctor
-											aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design.
-										</div>
-									</div>
-								</div>
-
-								<div class="item clearfix">
-									<div class="heading">
-										<div class="time col-md-3 col-sm-12 col-xs-12">11:30am - 1:00pm</div>
-										<div class="e-title col-md-9 col-sm-12 col-xs-12">Aenean sollicitudin quis
-											bibendum auctor<br /><span class="name">Andrew Yang - </span><span
-												class="speaker-designaition">CEO, Microsoft</span></div>
-									</div>
-									<div class="col-md-12 col-sm-12 col-xs-12">
-										<div class="content venue col-md-3 col-sm-12 col-xs-12">
-											Venue: Auditorium 1
-										</div>
-										<div class="content details col-md-9 col-sm-12 col-xs-12">
-											This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-											auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design. Proin gravida nibh vel velit auctor
-											aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design.
-										</div>
-									</div>
-								</div>
-
-								<div class="item clearfix">
-									<div class="heading">
-										<div class="time col-md-3 col-sm-12 col-xs-12">1:00pm - 2:00pm</div>
-										<div class="e-title col-md-9 col-sm-12 col-xs-12">Catered Lunch<br /><span
-												class="name">Sponsered </span></div>
-									</div>
-									<div class="col-md-12 col-sm-12 col-xs-12">
-										<div class="content venue col-md-3 col-sm-12 col-xs-12">
-											Venue: Auditorium 1
-										</div>
-										<div class="content details col-md-9 col-sm-12 col-xs-12">
-											This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-											auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design. Proin gravida nibh vel velit auctor
-											aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design.
-										</div>
-									</div>
-								</div>
-
-								<div class="item clearfix">
-									<div class="heading">
-										<div class="time col-md-3 col-sm-12 col-xs-12">3:00pm - 4:30pm</div>
-										<div class="e-title col-md-9 col-sm-12 col-xs-12">Sagittis sem nibh id
-											elit<br /><span class="name">Mary Doe - </span><span
-												class="speaker-designaition">Lead Designer, Microsoft</span></div>
-									</div>
-									<div class="col-md-12 col-sm-12 col-xs-12">
-										<div class="content venue col-md-3 col-sm-12 col-xs-12">
-											Venue: Auditorium 1
-										</div>
-										<div class="content details col-md-9 col-sm-12 col-xs-12">
-											This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-											auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design. Proin gravida nibh vel velit auctor
-											aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design.
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-					<section id="section-5">
-						<div class="container">
-							<div class="accordion">
-								<div class="day">September 19, 2014</div>
-								<div class="item clearfix">
-									<div class="heading clearfix">
-										<div class="time col-md-3 col-sm-12 col-xs-12">9:30am - 11:30am</div>
-										<div class="e-title col-md-9 col-sm-12 col-xs-12">Welcome speech and
-											Overview<br /><span class="name">Andrew Yang - </span><span
-												class="speaker-designaition">CEO, Microsoft</span></div>
-									</div>
-									<div class="col-md-12 col-sm-12 col-xs-12">
-										<div class="content venue col-md-3 col-sm-12 col-xs-12">
-											Venue: Auditorium 1
-										</div>
-										<div class="content details col-md-9 col-sm-12 col-xs-12">
-											This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-											auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design. Proin gravida nibh vel velit auctor
-											aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design.
-										</div>
-									</div>
-								</div>
-
-								<div class="item clearfix">
-									<div class="heading">
-										<div class="time col-md-3 col-sm-12 col-xs-12">11:30am - 1:00pm</div>
-										<div class="e-title col-md-9 col-sm-12 col-xs-12">The Standardistas are
-											lecturers in interactive design<br /><span class="name">Andrew Yang -
-											</span><span class="speaker-designaition">CEO, Microsoft</span></div>
-									</div>
-									<div class="col-md-12 col-sm-12 col-xs-12">
-										<div class="content venue col-md-3 col-sm-12 col-xs-12">
-											Venue: Auditorium 1
-										</div>
-										<div class="content details col-md-9 col-sm-12 col-xs-12">
-											This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-											auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design. Proin gravida nibh vel velit auctor
-											aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design.
-										</div>
-									</div>
-								</div>
-
-								<div class="item clearfix">
-									<div class="heading">
-										<div class="time col-md-3 col-sm-12 col-xs-12">1:00pm - 2:00pm</div>
-										<div class="e-title col-md-9 col-sm-12 col-xs-12">Catered Lunch<br /><span
-												class="name">Sponsered </span></div>
-									</div>
-									<div class="col-md-12 col-sm-12 col-xs-12">
-										<div class="content venue col-md-3 col-sm-12 col-xs-12">
-											Venue: Auditorium 1
-										</div>
-										<div class="content details col-md-9 col-sm-12 col-xs-12">
-											This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-											auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design. Proin gravida nibh vel velit auctor
-											aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design.
-										</div>
-									</div>
-								</div>
-
-								<div class="item clearfix">
-									<div class="heading">
-										<div class="time col-md-3 col-sm-12 col-xs-12">3:00pm - 4:30pm</div>
-										<div class="e-title col-md-9 col-sm-12 col-xs-12">Proin gravida nibh vel velit
-											auctor aliquet<br /><span class="name">Mary Doe - </span><span
-												class="speaker-designaition">Lead Designer, Microsoft</span></div>
-									</div>
-									<div class="col-md-12 col-sm-12 col-xs-12">
-										<div class="content venue col-md-3 col-sm-12 col-xs-12">
-											Venue: Auditorium 1
-										</div>
-										<div class="content details col-md-9 col-sm-12 col-xs-12">
-											This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-											auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design. Proin gravida nibh vel velit auctor
-											aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-											consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are
-											lecturers in interactive design.
-										</div>
-									</div>
+									<p>TBD. Check back later!</p>
 								</div>
 							</div>
 						</div>
@@ -976,15 +430,6 @@
 			</div><!-- /tabs -->
 		</div>
 	</section> -->
-
-
-	<!-- Event social links and download-->
-	<section class="event-download-social-link section-padding" style="display: none">
-		<div class="col-lg-6 col-md-12 align-center event-download-padding">
-			<a class="d-sch text-right" href="#" target="_blank"><i class="fa fa-download"></i>download schedule</a>
-			<a class="fb " href="#" target="_blank"><i class="fa fa-facebook"></i>connect via facebook</a>
-		</div>
-	</section>
 	<!--/SCHEDULE-->
 
 	<!--SPEAKERS-->
@@ -1117,7 +562,7 @@
 									<p>Club Advisor</p>
 								</div>
 							</li>
-							
+
 						</ul>
 					</div>
 				</div>
@@ -1132,19 +577,13 @@
 					<div class="sp-name"><strong>Vincent Allen</strong><br />President</div>
 					<div class="sp-dsc">
 						TBD
-						<!--
-						This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
-						sollicitudin, lorem quis bibendum auctor.
-						<blockquote>
-							<p>Here is a long quotation here is a long quotation proin gravida nibh vel velit auctor
-								aliquet aenean sollicitudin.</p>
-						</blockquote>
-						This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.-->
 					</div>
 					<div class="sp-social">
 						<ul>
-							<li><a href="https://www.linkedin.com/in/vincent-a-b66ab4132/" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="https://github.com/CyberVGamer" class="social-btn"><i class="fa fa-github"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/vincent-a-b66ab4132/" class="social-btn"><i
+										class="fa fa-linkedin"></i></a></li>
+							<li><a href="https://github.com/CyberVGamer" class="social-btn"><i
+										class="fa fa-github"></i></a></li>
 						</ul>
 					</div>
 					<button class="md-close"><i class="fa fa-times"></i></button>
@@ -1161,14 +600,6 @@
 					<div class="sp-name"><strong>Jorge Alvarez</strong><br />Vice President</div>
 					<div class="sp-dsc">
 						TBD
-						<!--
-						This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
-						sollicitudin, lorem quis bibendum auctor.
-						<blockquote>
-							<p>Here is a long quotation here is a long quotation proin gravida nibh vel velit auctor
-								aliquet aenean sollicitudin.</p>
-						</blockquote>
-						This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.-->
 					</div>
 					<div class="sp-social">
 						<ul>
@@ -1190,14 +621,6 @@
 					<div class="sp-name"><strong>Adrienne Co</strong><br />Creative Director</div>
 					<div class="sp-dsc">
 						TBD
-						<!--
-						This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
-						sollicitudin, lorem quis bibendum auctor.
-						<blockquote>
-							<p>Here is a long quotation here is a long quotation proin gravida nibh vel velit auctor
-								aliquet aenean sollicitudin.</p>
-						</blockquote>
-						This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.-->
 					</div>
 					<div class="sp-social">
 						<ul>
@@ -1219,14 +642,6 @@
 					<div class="sp-name"><strong>Hao Duong</strong><br />Technical Director</div>
 					<div class="sp-dsc">
 						TBD
-						<!--
-						This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
-						sollicitudin, lorem quis bibendum auctor.
-						<blockquote>
-							<p>Here is a long quotation here is a long quotation proin gravida nibh vel velit auctor
-								aliquet aenean sollicitudin.</p>
-						</blockquote>
-						This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.-->
 					</div>
 					<div class="sp-social">
 						<ul>
@@ -1248,14 +663,6 @@
 					<div class="sp-name"><strong>Rina Yu</strong><br />Outreach Coordinator</div>
 					<div class="sp-dsc">
 						TBD
-						<!--
-						This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
-						sollicitudin, lorem quis bibendum auctor.
-						<blockquote>
-							<p>Here is a long quotation here is a long quotation proin gravida nibh vel velit auctor
-								aliquet aenean sollicitudin.</p>
-						</blockquote>
-						This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.-->
 					</div>
 					<div class="sp-social">
 						<ul>
@@ -1277,14 +684,6 @@
 					<div class="sp-name"><strong>Rachel Kudlacz</strong><br />Jr. Creative Director</div>
 					<div class="sp-dsc">
 						TBD
-						<!--
-						This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
-						sollicitudin, lorem quis bibendum auctor.
-						<blockquote>
-							<p>Here is a long quotation here is a long quotation proin gravida nibh vel velit auctor
-								aliquet aenean sollicitudin.</p>
-						</blockquote>
-						This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.-->
 					</div>
 					<div class="sp-social">
 						<ul>
@@ -1304,14 +703,6 @@
 					<div class="sp-name"><strong>Isabel Giang</strong><br />Jr. Technical Director</div>
 					<div class="sp-dsc">
 						TBD
-						<!--
-						This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
-						sollicitudin, lorem quis bibendum auctor.
-						<blockquote>
-							<p>Here is a long quotation here is a long quotation proin gravida nibh vel velit auctor
-								aliquet aenean sollicitudin.</p>
-						</blockquote>
-						This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.-->
 					</div>
 					<div class="sp-social">
 						<ul>
@@ -1331,14 +722,6 @@
 					<div class="sp-name"><strong>Yusuf Pisan</strong><br />Club Advisor</div>
 					<div class="sp-dsc">
 						TBD
-						<!--
-						This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
-						sollicitudin, lorem quis bibendum auctor.
-						<blockquote>
-							<p>Here is a long quotation here is a long quotation proin gravida nibh vel velit auctor
-								aliquet aenean sollicitudin.</p>
-						</blockquote>
-						This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.-->
 					</div>
 					<div class="sp-social">
 						<ul>
@@ -1353,13 +736,13 @@
 		<div class="md-overlay"></div>
 		<!-- /Example Speaker -->
 
-		<a href="https://forms.gle/fjsmbMY7U4vcfkw6A"> 
-			<button type="button" class="learn-more-btn btn-effect">Apply to be an officer</button> 
+		<a href="https://forms.gle/fjsmbMY7U4vcfkw6A">
+			<button type="button" class="learn-more-btn btn-effect">Apply to be an officer</button>
 		</a>
 	</section>
 	<!--/SPEAKER-->
 
-	<!--PRICING-->
+	<!--Calendar-->
 
 	<section id="portfolio" class="portfolio text-center section-padding">
 		<div class="container">
@@ -1368,209 +751,64 @@
 				<div class="col-md-12">
 					<h1 class="arrow">Calendar</h1>
 					<hr>
-					<p>Find out what events we have planned for the upcoming weeks here.</p>
+					<p>Find out what events Husky Game Dev has planned for the upcoming weeks here.</p>
 				</div>
 			</div>
 			<div class="row">
 				<style>
 					@media (max-width: 550px) {
-					   .big-calendar {
-						   display: none;
-					   }
+						.big-calendar {
+							display: none;
+						}
 					}
+
 					@media (min-width: 550px) {
-					   .small-calendar {
-						   display: none;
-					   }
+						.small-calendar {
+							display: none;
+						}
 					}
+
 					/* Responsive iFrame */
 					.responsive-iframe-container {
-					   position: relative;
-					   padding-bottom: 56.25%;
-					   padding-top: 30px;
-					   height: 0;
-					   overflow: hidden;
+						position: relative;
+						padding-bottom: 56.25%;
+						padding-top: 30px;
+						height: 0;
+						overflow: hidden;
 					}
-					.responsive-iframe-container iframe,   
-					.vresponsive-iframe-container object,  
+
+					.responsive-iframe-container iframe,
+					.vresponsive-iframe-container object,
 					.vresponsive-iframe-container embed {
-					   position: absolute;
-					   top: 0;
-					   left: 0;
-					   width: 100%;
-					   height: 100%;
+						position: absolute;
+						top: 0;
+						left: 0;
+						width: 100%;
+						height: 100%;
 					}
 				</style>
 				<div class="responsive-iframe-container small-calendar calendar wow animated fadeInRight">
-					<iframe src="https://calendar.google.com/calendar/b/0/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;showTitle=1&amp;showTz=1&amp;showTabs=0&amp;showPrint=1&amp;showDate=1&amp;showNav=1&amp;showCalendars=0&amp;mode=AGENDA&amp;src=dXcuZWR1XzY5cGdua21jcmtnNWU3dTFsNW8zdnZodHFnQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23E67C73" style="border:solid 1px #777" width="50%" height="600" frameborder="0" scrolling="no"></iframe>
+					<iframe
+						src="https://calendar.google.com/calendar/b/0/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;showTitle=1&amp;showTz=1&amp;showTabs=0&amp;showPrint=1&amp;showDate=1&amp;showNav=1&amp;showCalendars=0&amp;mode=AGENDA&amp;src=dXcuZWR1XzY5cGdua21jcmtnNWU3dTFsNW8zdnZodHFnQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23E67C73"
+						style="border:solid 1px #777" width="50%" height="600" frameborder="0" scrolling="no"></iframe>
 				</div>
-				
+
 				<div class="responsive-iframe-container big-calendar calendar wow animated fadeInRight">
 					<iframe
 						src="https://calendar.google.com/calendar/embed?src=uw.edu_69pgnkmcrkg5e7u1l5o3vvhtqg%40group.calendar.google.com&ctz=America%2FLos_Angeles"
 						style="border: 0" width="50%" height="600" frameborder="0" scrolling="no"></iframe>
 				</div>
-
-				<!-- <div class="pricing-wrap">                
-						<ul class="slides">
-							<li>
-								<div class="col-md-3 col-sm-6 col-xs-6 wow animated fadeInLight" data-wow-duration="1s" data-wow-delay="0.3s">
-									<ul class="planContainer">
-										<li class="title"><h2>$99</h2></li>
-										<li class="price"><p>Individual</p></li>
-										<li>
-											<ul class="options">
-												<li>2x option 1</li>
-												<li>Free option 2</li>
-												<li>Unlimited option 3</li>
-												<li>Unlimited option 4</li>
-												<li>1x option 5</li>
-										   </ul>
-										</li>
-										<li class="button"><a data-scroll class="btn-effect" href="#swag">Register</a></li>
-									</ul>             
-								</div>
-							  
-								<div class="col-md-3 col-sm-6 col-xs-6 wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-									<ul class="planContainer">
-										<li class="title"><h2 class="bestPlanTitle">$125</h2></li>
-										<li class="price"><p class="bestPlanPrice">Business</p></li>
-										<li>
-											<ul class="options">
-												<li>2x option 1</li>
-												<li>Free option 2</li>
-												<li>Unlimited option 3</li>
-												<li>Unlimited option 4</li>
-												<li>1x option 5</li>
-											</ul>
-										</li>
-										<li class="button"><a data-scroll class="bestPlanButton btn-effect" href="#swag">Register</a></li>
-									</ul>
-								</div>
-								
-								<div class="col-md-3 col-sm-6 col-xs-6 wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.7s">
-									<ul class="planContainer">
-										<li class="title"><h2>$100</h2></li>
-										<li class="price"><p>Institution</p></li>
-										<li>
-											<ul class="options">
-												<li>2x option 1</li>
-												<li>Free option 2</li>
-												<li>Unlimited option 3</li>
-												<li>Unlimited option 4</li>
-												<li>1x option 5</li>
-										   </ul>
-										</li>
-										<li class="button"><a data-scroll class="btn-effect " href="#swag">Register</a></li>
-									</ul>
-								</div>
-								<div class="col-md-3 col-sm-6 col-xs-6 wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.9s">
-									<ul class="planContainer">
-										<li class="title"><h2>$150</h2></li>
-										<li class="price"><p>Government</p></li>
-										<li>
-											<ul class="options">
-												<li>2x option 1</li>
-												<li>Free option 2</li>
-												<li>Unlimited option 3</li>
-												<li>Unlimited option 4</li>
-												<li>1x option 5</li>
-										   </ul>
-										</li>
-										<li class="button"><a data-scroll class="btn-effect " href="#swag">Register</a></li>
-									</ul>
-								</div>
-							</li>
-						</ul>                
-					</div> -->
 			</div>
 		</div>
 	</section>
 	<!--/PRICING-->
 
 	<!--REGISTER FORM-->
-	<section id="swag" class="swag text-center" style="display: none">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-9 align-center">
-					<form id="nl-form" class="nl-form ">
-						Hi! My name is
-						<input id="name" type="text" name="name" placeholder="Enter your name"
-							data-subline="Enter your name" />
-						.
-						I would like to register for the
-						<select id="field_1">
-							<option value="1" selected>Individual</option>
-							<option value="2">Business</option>
-							<option value="3">Institution</option>
-							<option value="4">Government</option>
-						</select> pack
 
-						.
-						Contact me on
-						<input id="email1" type="text" name="email1" placeholder="My Email address"
-							data-subline="Enter your email address" />
-						<div class="nl-submit-wrap">
-							<button class="nl-submit btn-effect" type="submit" id="submit_btn">Submit</button>
-						</div>
-						<div id="result"></div>
-						<div class="nl-overlay"></div>
-					</form>
-					<div class="md-modal md-effect-9" id="modal-10">
-						<div class="md-content padding-none">
-							<div class="folio">
-
-								<div class="sp-name disclaimer"><strong>Terms and Conditions</strong></div>
-								<div class="sp-dsc disclaim-border">
-									<ul>
-										<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-											tempor incididunt dolore magna aliqua.</li>
-										<li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-											eu fugiat nulla pariatur.</li>
-										<li>Excepteur sint occaecat cupidatat non proident.</li>
-									</ul>
-								</div>
-
-								<button class="md-close"><i class="fa fa-times"></i></button>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-12 tc">Please read the<button class="md-trigger" data-modal="modal-10">Terms &
-							Conditions</button>carefully.</div>
-					<!-- the overlay element -->
-					<div class="md-overlay"></div>
-				</div>
-			</div>
-		</div>
-	</section>
 	<!-- /REGISTER FORM -->
 
 	<!--SPONSORS-->
-	<div id="sponsers" class="ignite-cta text-center section-padding" style="display: none">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 align-center wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-					<h1 class="arrow">Our Sponsors</h1>
-					<hr>
-					<p>Lorem ipsum dolor sit amet, alia honestatis an qui, ne soluta nemore eripuit sed. Falli exerci
-						aperiam ut his, prompta feugiat usu minimum delicata.</p>
-				</div>
-				<!-- Jssor Slider Begin -->
-				<div id="slider1_container" style=" ">
-					<div class="inner_carousal" data-u="slides" style="">
-						<div><img alt="sp1" src="assets/img/sponsor/sp1.png" /></div>
-							<div><img alt="sp2" src="assets/img/sponsor/sp2.png" /></div>
-							<div><img alt="sp3" src="assets/img/sponsor/sp3.png" /></div>
-							<div><img alt="sp4" src="assets/img/sponsor/sp4.png" /></div>
-							<div><img alt="sp5" src="assets/img/sponsor/sp5.png" /></div>
-							<div><img alt="sp6" src="assets/img/sponsor/sp6.png" /></div>
-							<div><img alt="sp7" src="assets/img/sponsor/sp7.png" /></div>
-					</div>
-				</div>
-				<!-- Jssor Slider End -->
-			</div>
-		</div>
-	</div>
+
 	<!-- /SPONSORS -->
 
 	<!--SUBSCRIBE-->
@@ -1580,50 +818,172 @@
 			<h1>Subscribe for newsletter</h1>
 			<!-- Begin Mailchimp Signup Form -->
 			<style type="text/css">
-				#mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
-				#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
-				#mc_embed_signup input {border:1px solid #999; -webkit-appearance:none;}
-				#mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
-				#mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
-				#mc_embed_signup input:focus {border-color:#333;}
-				#mc_embed_signup .button {clear:both; background-color: #aaa; border: 0 none; border-radius:4px; letter-spacing:.03em; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto; transition: all 0.23s ease-in-out 0s;}
-				#mc_embed_signup .button:hover {background-color:#777;}
-				#mc_embed_signup .small-meta {font-size: 11px;}
-				#mc_embed_signup .nowrap {white-space:nowrap;}     
-				#mc_embed_signup .clear {clear:none; display:inline;}
+				#mc_embed_signup form {
+					display: block;
+					position: relative;
+					text-align: left;
+					padding: 10px 0 10px 3%
+				}
 
-				#mc_embed_signup label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold;}
-				#mc_embed_signup input.email {font-family:"Open Sans","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif; font-size: 15px; display:block; padding:0 0.4em; margin:0 4% 10px 0; min-height:32px; width:58%; min-width:130px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
-				#mc_embed_signup input.button {display:block; width:35%; margin:0 0 10px 0; min-width:90px;}
+				#mc_embed_signup h2 {
+					font-weight: bold;
+					padding: 0;
+					margin: 15px 0;
+					font-size: 1.4em;
+				}
 
-				#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
-				#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
-				#mc_embed_signup #mce-error-response {display:none;}
-				#mc_embed_signup #mce-success-response {color:#529214; display:none;}
-				#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+				#mc_embed_signup input {
+					border: 1px solid #999;
+					-webkit-appearance: none;
+				}
+
+				#mc_embed_signup input[type=checkbox] {
+					-webkit-appearance: checkbox;
+				}
+
+				#mc_embed_signup input[type=radio] {
+					-webkit-appearance: radio;
+				}
+
+				#mc_embed_signup input:focus {
+					border-color: #333;
+				}
+
+				#mc_embed_signup .button {
+					clear: both;
+					background-color: #aaa;
+					border: 0 none;
+					border-radius: 4px;
+					letter-spacing: .03em;
+					color: #FFFFFF;
+					cursor: pointer;
+					display: inline-block;
+					font-size: 15px;
+					height: 32px;
+					line-height: 32px;
+					margin: 0 5px 10px 0;
+					padding: 0;
+					text-align: center;
+					text-decoration: none;
+					vertical-align: top;
+					white-space: nowrap;
+					width: auto;
+					transition: all 0.23s ease-in-out 0s;
+				}
+
+				#mc_embed_signup .button:hover {
+					background-color: #777;
+				}
+
+				#mc_embed_signup .small-meta {
+					font-size: 11px;
+				}
+
+				#mc_embed_signup .nowrap {
+					white-space: nowrap;
+				}
+
+				#mc_embed_signup .clear {
+					clear: none;
+					display: inline;
+				}
+
+				#mc_embed_signup label {
+					display: block;
+					font-size: 16px;
+					padding-bottom: 10px;
+					font-weight: bold;
+				}
+
+				#mc_embed_signup input.email {
+					font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
+					font-size: 15px;
+					display: block;
+					padding: 0 0.4em;
+					margin: 0 4% 10px 0;
+					min-height: 32px;
+					width: 58%;
+					min-width: 130px;
+					-webkit-border-radius: 3px;
+					-moz-border-radius: 3px;
+					border-radius: 3px;
+				}
+
+				#mc_embed_signup input.button {
+					display: block;
+					width: 35%;
+					margin: 0 0 10px 0;
+					min-width: 90px;
+				}
+
+				#mc_embed_signup div#mce-responses {
+					float: left;
+					top: -1.4em;
+					padding: 0em .5em 0em .5em;
+					overflow: hidden;
+					width: 90%;
+					margin: 0 5%;
+					clear: both;
+				}
+
+				#mc_embed_signup div.response {
+					margin: 1em 0;
+					padding: 1em .5em .5em 0;
+					font-weight: bold;
+					float: left;
+					top: -1.5em;
+					z-index: 1;
+					width: 80%;
+				}
+
+				#mc_embed_signup #mce-error-response {
+					display: none;
+				}
+
+				#mc_embed_signup #mce-success-response {
+					color: #529214;
+					display: none;
+				}
+
+				#mc_embed_signup label.error {
+					display: block;
+					float: none;
+					width: auto;
+					margin-left: 1.05em;
+					text-align: left;
+					padding: .5em 0;
+				}
 			</style>
 			<div id="mc_embed_signup" style="display: none">
-			<form action="https://huskygamedev.us4.list-manage.com/subscribe/post?u=7e9a2a04cc015f0e8902459c7&amp;id=e34b4b0710" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-				<div id="mc_embed_signup_scroll">
-				<label for="mce-EMAIL">Subscribe</label>
-				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-				<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-				<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7e9a2a04cc015f0e8902459c7_e34b4b0710" tabindex="-1" value=""></div>
-				<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-				</div>
-			</form>
+				<form
+					action="https://huskygamedev.us4.list-manage.com/subscribe/post?u=7e9a2a04cc015f0e8902459c7&amp;id=e34b4b0710"
+					method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+					target="_blank" novalidate>
+					<div id="mc_embed_signup_scroll">
+						<label for="mce-EMAIL">Subscribe</label>
+						<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL"
+							placeholder="email address" required>
+						<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+						<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+								name="b_7e9a2a04cc015f0e8902459c7_e34b4b0710" tabindex="-1" value=""></div>
+						<div class="clear"><input type="submit" value="Subscribe" name="subscribe"
+								id="mc-embedded-subscribe" class="button"></div>
+					</div>
+				</form>
 			</div>
 
 			<!--End mc_embed_signup-->
-
-			<!--End mc_embed_signup-->
-			<form action="https://huskygamedev.us4.list-manage.com/subscribe/post?u=7e9a2a04cc015f0e8902459c7&amp;id=e34b4b0710" method="POST" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate
-				class="center-block align-center col-lg-5 col-md-5 col-sm-10 col-xs-10 validate">
-				<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7e9a2a04cc015f0e8902459c7_e34b4b0710" tabindex="-1" value=""></div>
+			<form
+				action="https://huskygamedev.us4.list-manage.com/subscribe/post?u=7e9a2a04cc015f0e8902459c7&amp;id=e34b4b0710"
+				method="POST" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank"
+				novalidate class="center-block align-center col-lg-5 col-md-5 col-sm-10 col-xs-10 validate">
+				<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+						name="b_7e9a2a04cc015f0e8902459c7_e34b4b0710" tabindex="-1" value=""></div>
 
 				<div class="input-group col-lg-12 align-center" id="mc_embed_signup_scroll">
-					<input type="text" class="form-control email-add" id="mce-EMAIL" name="email" placeholder="Enter Email Address">
-					<button  id="mc-embedded-subscribe" class="btn btn-default notify-button"><i
+					<input type="text" class="form-control email-add" id="mce-EMAIL" name="email"
+						placeholder="Enter Email Address">
+					<button id="mc-embedded-subscribe" class="btn btn-default notify-button"><i
 							class="fa fa-paper-plane"></i><span>Send</span></button>
 				</div>
 			</form>
@@ -1638,7 +998,8 @@
 				<div class="col-md-8 wow animated fadeInLeft align-center" data-wow-duration="1s" data-wow-delay="0.3s">
 					<h1 class="arrow">Contact</h1>
 					<hr>
-					<p>If you have any questions, feel free to contact us at our club email or through any of our social media.</p>
+					<p>If you have any questions, feel free to contact us at our club email or through any of our social
+						media.</p>
 				</div>
 			</div>
 			<div class="row contact-details">
@@ -1662,8 +1023,7 @@
 				<div class="col-md-4 wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.9s">
 					<div class="light-box box-hover">
 						<h2><span>Email</span></h2>
-						<p><a href="mailto:uwb.huskygd@gmail.com">uwb.huskygd@gmail.com</a><!--<br><a href="#">support@reach.com</a><br><a
-								href="#">contact@mievent.com</a>--></p>
+						<p><a href="mailto:uwb.huskygd@gmail.com">uwb.huskygd@gmail.com</a>
 					</div>
 				</div>
 			</div>
@@ -1674,11 +1034,15 @@
 			<div class="row">
 				<div class="col-md-12">
 					<ul class="social-buttons">
-						<li><a href="https://github.com/Husky-Game-Dev" class="social-btn"><i class="fa fa-github"></i></a></li>
-						<li><a href="https://twitter.com/husky_dev" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="mailto:uwb.huskygd@gmail.com" class="social-btn"><i class="fa fa-envelope"></i></a></li>
-						<li><a href="https://www.facebook.com/UWB-Husky-Game-Dev-109586567392535/" class="social-btn"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://github.com/Husky-Game-Dev" class="social-btn"><i
+									class="fa fa-github"></i></a></li>
+						<li><a href="https://twitter.com/husky_dev" class="social-btn"><i class="fa fa-twitter"></i></a>
+						</li>
+						<li><a href="mailto:uwb.huskygd@gmail.com" class="social-btn"><i class="fa fa-envelope"></i></a>
+						</li>
+						<li><a href="https://www.facebook.com/UWB-Husky-Game-Dev-109586567392535/" class="social-btn"><i
+									class="fa fa-facebook"></i></a></li>
+						<li><a href="https://www.linkedin.com/company/huskygamedev" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -1689,33 +1053,9 @@
 	<!--FOOTER-->
 	<footer>
 		<div class="container">
-			
+
 			<div class="col-md-12 align-center row">
 				Copyright © Husky Game Dev 2020
-				<!--<div class="col-md-6 align-center">
-					<ul class="legals">
-						<li><button class="md-trigger " data-modal="modal-11">Disclaimer</button></li>
-						<li><a href="http://multia.in/">Made in Multia</a></li>
-					</ul>
-				</div>
-				<div class="md-modal md-effect-9" id="modal-11">
-					<div class="md-content padding-none">
-						<div class="folio">
-							<div class="sp-name disclaimer"><strong>Disclaimer</strong></div>
-							<div class="sp-dsc disclaim-border">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-								incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-								exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-								<br /><br />
-								Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-								nulla pariatur. Sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-								mollit anim id est laborum.
-							</div>
-							<button class="md-close"><i class="fa fa-times"></i></button>
-						</div>
-					</div>
-				</div>
-				<div class="md-overlay"></div>-->
 			</div>
 		</div>
 	</footer>
@@ -1737,8 +1077,6 @@
 	<script type="text/javascript" src="assets/js/classie.js"></script>
 	<script type="text/javascript" src="assets/js/modalEffects.js"></script>
 
-	<script type="text/javascript" src="assets/js/nlform.js"></script>
-	<script>var nlform = new NLForm(document.getElementById('nl-form'));</script>
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 
 	<!-- TEAM SLIDER  -->
@@ -1750,11 +1088,7 @@
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
-	<!--SPONSOR SLIDER-->
-	<script type="text/javascript" src="assets/js/jssor.core.js"></script>
-	<script type="text/javascript" src="assets/js/jssor.utils.js"></script>
-	<script type="text/javascript" src="assets/js/jssor.slider.js"></script>
-	<script type="text/javascript" src="assets/js/sponsor_init.js"></script>
+
 
 	<!-- SMOOTH SCROLL  -->
 	<script type="text/javascript" src="assets/js/smooth-scroll.js"></script>
@@ -1773,6 +1107,8 @@
 	<!-- INITIALIZATION  -->
 	<script type="text/javascript" src="assets/js/init.js"></script>
 
+	<!-- SLICK SLIDER -->
+	<script type="text/javascript" src="assets/slick/slick.min.js"></script>
 </body>
 
 </html>

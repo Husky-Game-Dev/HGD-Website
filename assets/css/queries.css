@@ -63,15 +63,24 @@ body{
 }
 
 @media screen and (max-width:1180px){
-.features-md{
-	margin: 0 auto;
-	overflow: hidden;
-	display: block;
-	clear: both;
-	text-align: center;
-	float: none;
+    .features-md{
+        margin: 0 auto;
+        overflow: hidden;
+        display: block;
+        clear: both;
+        text-align: center;
+        float: none;
+    }
+    .game-jam-submissions {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    #winter2020-gamejam-description p {
+        color: black;
+    }
 }
-}
+
+
 @media screen and (max-width:1024px){
 
 body {

@@ -194,7 +194,12 @@ hr {
 	margin-bottom:25px;
 }
 
-#grid-gallery figcaption hr{
+#winter-grid-gallery figcaption hr{
+	margin-top:0px;
+	margin-bottom:15px;
+}
+
+#spring-grid-gallery figcaption hr{
 	margin-top:0px;
 	margin-bottom:15px;
 }
@@ -713,6 +718,77 @@ blockquote p{
 
 .sp-dsc blockquote {
 	border-left-color: #1bce7c;
+}
+
+.winter2020 {
+	/*background-color: #58a199;*/
+	background-image: url('../img/game-jam/winter2020gamejam.jpg');
+	background-position: center center;
+}
+
+.spring2020 {
+	/*background-color: #58a199;*/
+	background-image: url('../img/game-jam/spring2020gamejam.jpg');
+	background-position: center center;
+}
+
+.summer2020 {
+	background-image: url('../img/game-jam/pending-theme.png');
+}
+.game-jam-header {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.game-jam-subheader {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;	
+	width: 75%;
+	margin: 0 auto;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+}
+
+.game-jam-submissions {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 30px;
+}
+.game-jam-submissions div {
+	background-color: white;
+	margin: 0 auto;
+}
+
+#winter2020-gamejam-description p {
+	color: white;
+}
+.game-jam-submissions div img {
+	width: 100%;
+}
+.game-jam-submission-description {
+	color: black;
+	text-align: left;
+	padding-top: 0px;
+	font-size: 1em;
+	padding: 10px;	
+}
+
+.game-jam-description p {
+	color: black;
+}
+
+
+.game-jam-description {
+	color: white;
+	font-size: 1.5em;
+	text-align: left;
 }
 
 div.avatar {
