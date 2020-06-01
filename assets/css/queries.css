@@ -388,6 +388,11 @@ float: none;
 width: 100%!important;
 }
 
+.game-jam-submissions {
+    padding-left: 100px;
+    padding-right: 100px;
+}    
+
 }
 
 @media screen and (max-width:767px){
@@ -502,6 +507,12 @@ blockquote p {
 	padding-right:40px;
 }
 
+
+.game-jam-submissions {
+    padding-left: 75px;
+    padding-right: 75px;
+}    
+
 }
 
 @media screen and (max-width:480px){
@@ -552,6 +563,13 @@ blockquote p {
 	font-size: 1em;
     letter-spacing: 3px;
 }
+.game-jam-submissions {
+    padding-left: 20px;
+    padding-right: 20px;
+}    
+.game-jam-description {
+    font-size: 1.0em;
+}  
 }
 
 
@@ -661,4 +679,5 @@ h1.arrow{
 	padding-left:0px;
 	padding: 25px 0 0 0;
 }
+
 }
