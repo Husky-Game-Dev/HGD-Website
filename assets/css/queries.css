@@ -62,13 +62,6 @@ body{
 */
 }
 
-@media screen and (max-height:1000px) {
-    .game-jam-submissions {
-        padding-left: 250px;
-        padding-right: 250px;
-    }
-}
-
 @media screen and (max-width:1180px){
     .features-md{
         margin: 0 auto;
