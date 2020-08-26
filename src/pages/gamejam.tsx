@@ -1,7 +1,6 @@
 import * as React from "react";
 import {Header, Icon, Grid, Segment} from "semantic-ui-react";
-import {withLayout} from "../components/Layout"
-
+import {withLayout} from "../components/Layout";
 
 const GameJamPage = () =>
     <div>
@@ -16,4 +15,3 @@ const GameJamPage = () =>
         </Segment>
     </div>;
 export default withLayout(GameJamPage);
-

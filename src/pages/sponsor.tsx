@@ -5,6 +5,6 @@ import {withLayout} from "../components/Layout";
 const SponsorPage = () =>
     <div>
         <Header as={"h1"}>Sponsors</Header>
-    </div>
+    </div>;
 
 export default withLayout(SponsorPage);

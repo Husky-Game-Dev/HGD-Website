@@ -12,8 +12,7 @@ import {
 } from "semantic-ui-react";
 
 // @ts-ignore
-import logo from "../../assets/img/HGD_logo_final.png"
-
+import logo from "../../assets/img/HGD_logo_final.png";
 
 const IndexPage = (props: LayoutProps) =>
 
@@ -24,7 +23,7 @@ const IndexPage = (props: LayoutProps) =>
       <Container text>
         <Header inverted as="h1">Husky Game Dev</Header>
       </Container>
-        <Image src={logo} size='small' centered></Image>
+        <Image src={logo} size="small" centered></Image>
 
     </Segment>
 

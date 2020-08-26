@@ -44,7 +44,6 @@ const Layout = (props: LayoutProps) => {
         <Sidebar.Pusher style={{ minHeight: "100vh" }}>
           {/* Header */}
 
-
           {/* Render children pages */}
           <div style={{ paddingBottom: 60 }}>
             {props.children}

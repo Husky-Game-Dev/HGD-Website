@@ -2,7 +2,6 @@ import * as React from "react";
 import {Header, Icon, Grid, Segment} from "semantic-ui-react";
 import {withLayout} from "../components/Layout";
 
-
 const EventsPage = () =>
     <div>
         <Segment>
