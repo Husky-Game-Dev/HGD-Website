@@ -13,7 +13,10 @@ import { store } from "../store";
 export const menuItems = [
   { name: "Home", path: "/", exact: true, icon: "home", inverted: true },
   { name: "About", path: "/about/", exact: true, icon: "info circle" },
+  { name: "Game Jam", path: "/gamejam/", exact: false, icon: "gamepad"},
+  { name: "Events", path: "/events/", exact: false, icon: "calendar alternate"},
   { name: "Blog", path: "/blog/", exact: false, icon: "newspaper" },
+  { name: "Sponsor", path: "/sponsor/", exact: false, icon: "gift"},
 ];
 
 export interface LayoutProps {
@@ -29,17 +32,18 @@ const Layout = (props: LayoutProps) => {
 
   return (
     <Provider store={store}>
+      {<HeaderMenu
+          Link={Link}
+          pathname={pathname}
+          items={menuItems}
+      />}
       <Sidebar.Pushable as={Segment}>
 
         <SidebarMenu Link={Link} pathname={pathname} items={menuItems} visible={false} />
 
         <Sidebar.Pusher style={{ minHeight: "100vh" }}>
           {/* Header */}
-          {isHome ? null : <HeaderMenu
-            Link={Link}
-            pathname={pathname}
-            items={menuItems}
-          />}
+
 
           {/* Render children pages */}
           <div style={{ paddingBottom: 60 }}>
@@ -49,7 +53,7 @@ const Layout = (props: LayoutProps) => {
           {/* Footer */}
           <Segment inverted vertical style={{ position: "absolute", bottom: 0, width: "100%" }}>
             <Container textAlign="center">
-              <p>Powered with <Icon name="heart" /> by Gatsby 2.0</p>
+              <p>Copyright © Husky Game Dev 2020</p>
             </Container>
           </Segment>
         </Sidebar.Pusher>

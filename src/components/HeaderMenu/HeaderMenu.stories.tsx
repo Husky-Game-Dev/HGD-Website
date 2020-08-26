@@ -9,7 +9,10 @@ import { resolve } from "path";
 const items = [
   { name: "Home", path: "/", exact: true },
   { name: "About", path: "/about/", exact: true },
+  { name: "Game Jam", path: "/gamejam/", exact: false},
+  { name: "Events", path: "/events/", exact: false},
   { name: "Blog", path: "/blog/", exact: false },
+  { name: "Sponsor", path: "/sponsor/", exact: false},
 ];
 
 const LinkStub = (props: any) =>
