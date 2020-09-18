@@ -819,7 +819,7 @@ div.avatar {
 	margin: 0 auto;
 }
 .avatar3 {
-	background-image: url('../img/team/adrienne-103.png');
+	background-image: url('../img/team/default-103.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-color: #ffffff;
@@ -854,8 +854,9 @@ div.avatar {
 	border-radius: 50%;
 	margin: 0 auto;
 }
+
 .avatar6 {
-	background-image: url('../img/team/default-103.jpg');
+	background-image: url('../img/team/reina-103x103.png');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-color: #ffffff;
@@ -866,6 +867,7 @@ div.avatar {
 	border-radius: 50%;
 	margin: 0 auto;
 }
+
 .avatar7 {
 	background-image: url('../img/team/default-103.jpg');
 	background-repeat: no-repeat;
@@ -879,6 +881,18 @@ div.avatar {
 	margin: 0 auto;
 }
 .avatar8 {
+	background-image: url('../img/team/adrienne-103.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #ffffff;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.avatar9 {
 	background-image: url('../img/team/default-103.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
